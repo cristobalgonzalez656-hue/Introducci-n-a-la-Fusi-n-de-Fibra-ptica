@@ -5,11 +5,9 @@ Fibra Optica
 
 # ⚡ Manual Técnico: Fusión de Fibra Óptica
 
-![Portada Fusión Fibra Óptica](assets/img/portada_fusion.jpg)
-
 > **Institución:** Inacap - Sede La Serena
-> **Asignatura:** [Nombre de tu Asignatura]
-> **Autores:** [Tu Nombre y de tu equipo]
+> **Asignatura:** Infraestructura De Redes
+> **Autores:** Cristobal Gonzalez
 
 Este manual proporciona una guía directa para la preparación y conectorización física de medios de transmisión óptica, abarcando desde el pelado de las capas de protección hasta la termofusión por arco eléctrico.
 
