@@ -12,17 +12,6 @@ Fibra Optica
 
 ![Portada Fusión Fibra Óptica](assets/img/portada_fusion.jpg)
 
-La presente guía técnica detalla el ciclo completo de preparación y conectorización física de medios de transmisión óptica. Este manual está diseñado para ser consultado directamente en el banco de trabajo, asegurando precisión mecánica y bajas atenuaciones en redes de alta velocidad.
-
----
-
-## 📖 Glosario Técnico Exprés
-
-*   **Núcleo (Core):** Zona central de la fibra (usualmente 9µm en monomodo) por donde viaja el haz de luz.
-*   **Cladding:** Revestimiento externo (125µm) que confina la luz dentro del núcleo mediante reflexión total interna.
-*   **Cleaving:** Corte de altísima precisión (ángulo de ~90°) realizado con una cortadora mecánica, vital para una buena fusión.
-*   **Atenuación:** Pérdida de potencia de la señal óptica, a menudo causada por suciedad, microcurvaturas o cortes defectuosos.
-*   **Stripper:** Pinza especial calibrada para remover las capas protectoras sin dañar el delicado cristal de la fibra.
 # ⚡ Manual Técnico de Laboratorio: Fusión de Fibra Óptica
 
 > **Institución:** INACAP - Sede La Serena
