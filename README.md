@@ -3,15 +3,6 @@ Fibra Optica
 
 <img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/94a540e7-2a86-40cc-8b6a-2b119a7a569c" />
 
-
-# ⚡ Manual Técnico de Laboratorio: Fusión de Fibra Óptica
-
-> **Institución:** INACAP - Sede La Serena
-> **Asignatura:** Infraestructura de Redes / Telecomunicaciones
-> **Autores:** Cristóbal González y Equipo
-
-![Portada Fusión Fibra Óptica](assets/img/portada_fusion.jpg)
-
 # ⚡ Manual Técnico de Laboratorio: Fusión de Fibra Óptica
 
 > **Institución:** INACAP - Sede La Serena
