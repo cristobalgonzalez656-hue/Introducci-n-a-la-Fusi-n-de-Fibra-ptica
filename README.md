@@ -130,3 +130,12 @@ $$\text{Pérdida Total (dB)} = (\alpha_{\text{fibra}} \times L) + (N_c \times A_
 
 * INACAP. (2026). *Apuntes de Cátedra y Manual de Laboratorio: Infraestructura de Redes (TCB304)*. Sede La Serena.
 * Normas TIA/EIA-568 y estándares internacionales para sistemas de cableado de fibra óptica.
+
+## 🗺️ Diagramas y Esquemas de la Red
+
+### Esquema Topológico General (Packet Tracer)
+El siguiente diagrama representa la arquitectura física y lógica implementada, destacando el enrutamiento dinámico OSPF Área 69 y la salida a borde mediante NAT.
+
+![Esquema Topológico General](assets/img/esquema_topologia.png)
+
+> 💡 **Nota de Ingeniería:** Los archivos fuente editables de este diseño se encuentran disponibles en la carpeta [`topologies/`](./topologies/) para su revisión y simulación directa.
