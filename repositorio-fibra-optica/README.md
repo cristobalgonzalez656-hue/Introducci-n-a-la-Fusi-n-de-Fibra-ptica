@@ -1,4 +1,3 @@
-![Manual Técnico de Fibra Óptica](assets/img/portada-fibra-optica.png)
 <img width="1983" height="793" alt="image" src="https://github.com/user-attachments/assets/6d00acf9-cd27-4455-87c6-22a9b7f50777" />
 
 # Manual técnico: Fusión de Fibra Óptica
