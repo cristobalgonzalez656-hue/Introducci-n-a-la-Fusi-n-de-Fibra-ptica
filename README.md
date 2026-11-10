@@ -1,1 +1,132 @@
-⚡ Manual Técnico-Pedagógico: Fusión y Conectorización de Fibra ÓpticaInstitución: INACAP - Sede La SerenaÁrea Académica: Electricidad, Electrónica y TelecomunicacionesCarrera: Ingeniería en Telecomunicaciones / Conectividad y RedesAsignatura: Infraestructura de Redes (TCB304)Docente: [Nombre del Docente]Fecha de Evaluación: [Fecha de Evaluación]Estudiante: [Nombre del Estudiante]📋 1. Introducción Técnica a la Fibra ÓpticaLas redes de fibra óptica representan el pilar fundamental de las telecomunicaciones de alta velocidad modernas, permitiendo la transmisión de grandes volúmenes de datos a través de pulsos de luz sobre hilos de vidrio o polímeros dieléctricos. El proceso de conectorización y termofusión por arco eléctrico constituye una habilidad crítica en terreno para garantizar la continuidad física del enlace, minimizar las pérdidas por inserción y asegurar la viabilidad de las redes de planta interna y externa.🎯 2. ObjetivosObjetivo GeneralImplementar y documentar de manera práctica y rigurosa el proceso completo de preparación, conectorización, termofusión y verificación de un enlace de fibra óptica, aplicando normas de seguridad, cálculo de presupuesto óptico y control de versiones mediante Git.Objetivos EspecíficosAplicar los protocolos de seguridad industrial y manipulación de residuos de fibra óptica desnuda.Ejecutar correctamente las etapas de stripping, limpieza de precisión, cleaving y termofusión.Calcular teóricamente las pérdidas del enlace mediante la construcción de una tabla de presupuesto óptico.Validar el estado final del enlace utilizando instrumental de medición y registro de parámetros reales.Gestionar la documentación técnica del proyecto en un repositorio Git con commits descriptivos.🧰 3. Materiales, Herramientas y EPPElementos de Protección Personal (EPP)Lentes de seguridad: Protección ocular obligatoria frente a fragmentos microscópicos de vidrio proyectados durante el corte.Contenedor de residuos: Recipiente rígido especializado para el depósito seguro de los restos de fibra.Herramientas e InstrumentosPinza peladora (Stripper de 3 posiciones / 125 micras).Cortadora de alta precisión (Cleaver mecánico con cuchilla de diamante).Fusionadora de fibra óptica por alineación de núcleos.Alcohol isopropílico de alta pureza ($99\%$).Paños libres de pelusa (Lint-free wipes).Manguitos termocontraíbles (Heat shrink).Identificador o fuente de luz visual / VFL / OTDR (según disponibilidad en taller).📖 4. Glosario TécnicoNúcleo (Core): Zona central de la fibra óptica de menor diámetro por donde se propaga el haz de luz mediante reflexión total interna.Cladding (Revestimiento): Capa óptica concéntrica que rodea el núcleo con un índice de refracción menor, confinando la luz dentro del mismo.Cleaving (Corte de precisión): Operación mecánica orientada a seccionar la fibra logrando una cara perfectamente plana y perpendicular ($\approx 90^{\circ}$).Atenuación: Pérdida de potencia de la señal óptica a lo largo del medio de transmisión, expresada habitualmente en decibelios por kilómetro ($\text{dB/km}$).⚙️ 5. Proceso Técnico de Preparación y FusiónNota del Fabricante: Las operaciones específicas de calibración y parámetros del arco eléctrico deben ajustarse conforme a los manuales del fabricante de la fusionadora y cortadora utilizada en el taller.Etapa 1: Stripping o Pelado de la FibraObjetivo Técnico: Remover la chaqueta exterior, el buffer y el recubrimiento acrilato para exponer el vidrio puro.Herramientas y Materiales: Pinza peladora (stripper), cable de fibra óptica.Parámetros a Registrar: Exposición limpia de la fibra desnuda hasta el diámetro de referencia de $125\,\mu\text{m}$.Resultado Esperado: Hilo de fibra limpio de impurezas plásticas, sin muescas ni fracturas superficiales.Errores Comunes: Aplicar fuerza excesiva o ángulo incorrecto, provocando el quiebre interno del filamento.Advertencia de Seguridad: Evitar tocar directamente la fibra desnuda con los dedos para prevenir contaminación por grasas corporales.Evidencia Visual:  (Incorporar fotografía propia de la práctica)Etapa 2: Limpieza de PrecisiónObjetivo Técnico: Eliminar micropartículas de polvo, grasa o residuos de acrilato que puedan generar atenuación o fallos en el arco.Herramientas y Materiales: Alcohol isopropílico ($99\%$), paños libres de pelusa.Parámetros a Registrar: Grado de pureza del alcohol y estado visual de la fibra tras la limpieza.Resultado Esperado: Superficie de vidrio impecable que emita un sonido característico (chirrido) al deslizar el paño.Errores Comunes: Utilizar alcohol de farmacia rebajado con agua o paños que dejen residuos de pelusa.Advertencia de Seguridad: Mantener el envase de alcohol isopropílico cerrado y alejado de fuentes de calor.Evidencia Visual:  (Incorporar fotografía propia de la práctica)Etapa 3: Corte de Precisión (Cleaving)Objetivo Técnico: Obtener un corte transversal perfectamente plano y perpendicular ($90^{\circ}$) en el extremo de la fibra.Herramientas y Materiales: Cortadora de alta precisión (cleaver).Parámetros a Registrar: Ángulo de corte reportado por la cortadora o la fusionadora ($\leq 1.0^{\circ}$).Resultado Esperado: Cara de corte limpia, sin labios, astillas ni inclinaciones pronunciadas.Errores Comunes: No posicionar la fibra en la regla milimétrica a la distancia correcta antes de accionar la cuchilla.Advertencia de Seguridad: Desechar de inmediato los fragmentos cortados en el contenedor de residuos de vidrio.Evidencia Visual:  (Incorporar fotografía propia de la práctica)Etapa 4: Proceso de TermofusiónObjetivo Técnico: Unir de manera permanente dos hilos de fibra mediante la aplicación de un arco eléctrico controlado.Herramientas y Materiales: Fusionadora de fibra óptica, hilos preparados.Parámetros a Registrar: Alineación de núcleos, corriente y duración del arco eléctrico.Resultado Esperado: Fusión homogénea con una estimación de pérdida inferior a $0.05\,\text{dB}$.Errores Comunes: Abrir la tapa antes de que finalice el ciclo o dejar la fibra mal posicionada en las ranuras en V.Advertencia de Seguridad: No mirar directamente el arco eléctrico durante la descarga de alta tensión.Evidencia Visual:  (Incorporar fotografía propia de la práctica)Etapa 5: Protección del Empalme (Heat Shrink)Objetivo Técnico: Proveer resistencia mecánica al punto de fusión mediante un manguito termocontraíble con varilla de refuerzo.Herramientas y Materiales: Manguito de protección, horno térmico de la fusionadora.Parámetros a Registrar: Tiempo y temperatura de calentamiento del horno.Resultado Esperado: Manguito fundido uniformemente, sin burbujas de aire ni exposición de fibra desnuda.Errores Comunes: Olvidar introducir el manguito en la fibra antes de iniciar el proceso de pelado y fusión.Advertencia de Seguridad: Evitar el contacto con el bloque calefactor inmediatamente después del ciclo de horneado.Evidencia Visual:  (Incorporar fotografía propia de la práctica)Etapa 6: Medición y Verificación del ResultadoObjetivo Técnico: Comprobar la continuidad óptica y la calidad técnica del enlace conectorizado.Herramientas y Materiales: Identificador visual, medidor de potencia o fusionadora integrada.Parámetros a Registrar: Pérdida de inserción estimada y potencia óptica medida.Resultado Esperado: Enlace óptico operativo dentro de los rangos tolerables del presupuesto óptico.Errores Comunes: Interpretar erróneamente las unidades de medida en decibelios (dB o dBm).Advertencia de Seguridad: No apuntar fuentes láser o VFL directamente hacia los ojos.Evidencia Visual:  (Incorporar fotografía propia de la práctica)📊 6. Presupuesto ÓpticoEl cálculo del presupuesto óptico permite estimar teóricamente la atenuación máxima tolerable en el enlace. La fórmula general de pérdida teórica es:$$P_{\text{total}} = (\alpha_{\text{fibra}} \cdot L) + (n_{\text{con}} \cdot A_{\text{con}}) + (n_{\text{emp}} \cdot A_{\text{emp}}) + M_{\text{GPON}}$$Donde:$\alpha_{\text{fibra}}$: Atenuación de la fibra por kilómetro ($\text{dB/km}$).$L$: Longitud total del enlace ($\text{km}$).$n_{\text{con}}$: Cantidad de conectores.$A_{\text{con}}$: Atenuación promedio por conector ($\text{dB}$).$n_{\text{emp}}$: Cantidad de empalmes por fusión.$A_{\text{emp}}$: Atenuación promedio por empalme ($\text{dB}$).$M_{\text{GPON}}$: Margen de seguridad o envejecimiento del sistema ($\text{dB}$).Nota: Los siguientes valores corresponden a campos editables para completar según las especificaciones del taller práctico.ParámetroCantidad o valor (Ejemplo ilustrativo)UnidadLongitud del enlace[Por completar, ej: 2.5]kmAtenuación por kilómetro[Por completar, ej: 0.35 a 1310nm]dB/kmPérdida por conectores[Por completar, ej: 2 conectores @ 0.5 dB]dBPérdida por empalmes[Por completar, ej: 1 empalme @ 0.05 dB]dBPérdidas adicionales[Por completar, ej: 0.0]dBMargen GPON[Por completar, ej: 3.0]dBPérdida total estimada[Por calcular mediante fórmula]dB🔍 7. Mediciones y VerificaciónLa pérdida teórica representa el cálculo matemático ideal del canal, mientras que la pérdida medida refleja el comportamiento real obtenido mediante el instrumental en terreno.Parámetro de VerificaciónRegistro del TallerContinuidad del enlace[Por completar: Sí / No]Pérdida estimada del empalme[Por completar, ej: 0.02 dB]Pérdida medida por instrumental[Por completar, ej: 1.25 dB]Resultado de la verificación[Por completar: Aprobado / Rechazado]Observaciones técnicas[Por completar notas del ensayo]Estado final del enlace[Por completar: Operativo]💡 8. ConclusionesLa ejecución rigurosa de cada etapa en el tratamiento de la fibra óptica previene fallos mecánicos y atenuaciones excesivas en la planta externa e interna.El uso correcto de los elementos de protección personal y el manejo adecuado de residuos garantizan un entorno de trabajo seguro frente a riesgos biológicos y físicos invisibles.El cálculo del presupuesto óptico establece un estándar de comparación indispensable frente a las mediciones reales en terreno, validando la calidad del servicio de telecomunicaciones desplegado.📚 9. Bibliografía y Referencias TécnicasINACAP (2026). Apuntes de Asignatura: Infraestructura de Redes (TCB304). Sede La Serena.ITU-T G.652 (2016). Characteristics of a single-mode optical fibre and cable. International Telecommunication Union.Norma ANSI/TIA-568.3-D. Optical Fiber Cabling and Components Standard.
+# ⚡ Manual Técnico-Pedagógico: Fusión y Conectorización de Fibra Óptica
+
+> **Institución:** INACAP - Sede La Serena  
+> **Área Académica:** Electricidad, Electrónica y Telecomunicaciones  
+> **Carrera:** Ingeniería en Telecomunicaciones / Conectividad y Redes  
+> **Asignatura:** Infraestructura de Redes (TCB304)  
+> **Docente:** [Nombre del Docente]  
+> **Fecha de Evaluación:** [Fecha de Evaluación]  
+> **Estudiante:** Cristóbal González  
+
+---
+
+## 1. Introducción Técnica a la Fibra Óptica
+
+Las redes de fibra óptica representan el pilar fundamental de las telecomunicaciones de alta velocidad modernas, permitiendo la transmisión de grandes volúmenes de datos a través de pulsos de luz sobre hilos de vidrio o polímeros dieléctricos. El proceso de conectorización y termofusión por arco eléctrico constituye una habilidad crítica en terreno para garantizar la continuidad física del enlace, minimizar las pérdidas por inserción y asegurar la viabilidad de las redes de planta interna y externa.
+
+---
+
+## 2. Objetivos
+
+### Objetivo General
+Implementar y documentar de manera práctica y rigurosa el proceso completo de preparación, conectorización, termofusión y verificación de un enlace de fibra óptica, aplicando normas de seguridad, cálculo de presupuesto óptico y control de versiones mediante Git.
+
+### Objetivos Específicos
+* Aplicar los protocolos de seguridad industrial y manipulación de residuos de fibra óptica desnuda.
+* Ejecutar correctamente las etapas de *stripping*, limpieza de precisión, *cleaving* y termofusión.
+* Calcular teóricamente las pérdidas del enlace mediante la construcción de una tabla de presupuesto óptico.
+* Validar el estado final del enlace utilizando instrumental de medición y registro de parámetros reales.
+* Gestionar la documentación técnica del proyecto en un repositorio Git con commits descriptivos.
+
+---
+
+## 3. Materiales, Herramientas y EPP
+
+### Elementos de Protección Personal (EPP)
+* **Lentes de seguridad:** Protección ocular obligatoria frente a fragmentos microscópicos de vidrio proyectados durante el corte.
+* **Contenedor de residuos:** Recipiente rígido especializado para el depósito seguro de los restos de fibra.
+
+### Herramientas e Instrumentos
+* **Pinza peladora (*Stripper*):** Herramienta calibrada de 3 posiciones para remover capas protectoras.
+* **Cortadora de precisión (*Cleaver*):** Dispositivo mecánico con cuchilla de diamante para cortes perpendiculares cercanos a los 90°.
+* **Fusionadora por arco eléctrico:** Equipo automatizado para la alineación de núcleos y soldadura térmica.
+* **Alcohol isopropílico (99%):** Solvente de alta pureza para limpieza de impurezas.
+* **Paños libres de pelusa (*Lint-free wipes*):** Material textil que no deja residuos sobre el vidrio.
+* **Manguito termocontraíble (*Heat shrink*):** Protección mecánica post-fusión.
+
+---
+
+## 4. Glosario Técnico Exprés
+
+* **Núcleo (*Core*):** Zona central de la fibra por donde se propaga el haz de luz, típicamente de 9 micras en monomodo.
+* **Cladding (Revestimiento):** Capa óptica externa de 125 micras que confina la luz mediante reflexión total interna.
+* **Cleaving (Corte de precisión):** Corte mecánico limpio y perpendicular (~90°) esencial para una baja atenuación.
+* **Atenuación:** Pérdida de potencia de la señal óptica a lo largo del enlace, expresada en decibelios (dB).
+
+---
+
+## 5. Proceso Técnico Paso a Paso
+
+### Etapa 1: Seguridad y Preparación
+* **Objetivo Técnico:** Prevenir accidentes laborales por cortes o penetración de esquirlas de vidrio.
+* **Herramientas:** Lentes de seguridad, guantes y bote de residuos.
+* **Resultado Esperado:** Área de trabajo segura y libre de riesgos biológicos o físicos.
+
+> ⚠️ **Advertencia de Seguridad:** Los fragmentos de fibra cortados son invisibles y extremadamente peligrosos si se alojan en la piel o los ojos.
+
+### Etapa 2: Stripping (Pelado de la Fibra)
+* **Objetivo Técnico:** Remover la chaqueta, buffer y acrilato hasta exponer el vidrio puro de 125 micras.
+* **Herramientas:** Pinza peladora de 3 posiciones.
+* **Resultado Esperado:** Fibra desnuda expuesta sin mellas ni ralladuras estructurales.
+
+> ⚠️ **Error Común:** Aplicar fuerza excesiva o doblar la fibra durante el pelado provoca fracturas internas invisibles.
+
+### Etapa 3: Limpieza y Cleaving (Corte de Precisión)
+* **Objetivo Técnico:** Eliminar trazas de grasa y lograr un ángulo de corte plano perpendicular ($90^{\circ}$).
+* **Herramientas:** Alcohol isopropílico, paños libres de pelusa y cortadora de alta precisión (*cleaver*).
+* **Resultado Esperado:** Extremo de fibra limpio con un ángulo de corte óptimo (menor a $1^{\circ}$ de desviación).
+
+> ⚠️ **Tip Pedagógico:** Una vez limpia la fibra con alcohol, no debe volver a tocar ninguna superficie ni los dedos.
+
+### Etapa 4: Proceso de Termofusión
+* **Objetivo Técnico:** Unir permanentemente dos hilos de fibra mediante un arco eléctrico controlado.
+* **Herramientas:** Fusionadora de fibra óptica y manguito termocontraíble.
+* **Resultado Esperado:** Fusión con una pérdida estimada menor a 0.05 dB en la pantalla del equipo.
+
+### Etapa 5: Protección del Empalme y Verificación
+* **Objetivo Técnico:** Proteger la zona de fusión ante tensiones mecánicas y ambientales mediante calor.
+* **Herramientas:** Horno integrado de la fusionadora y OTDR / Medidor de potencia.
+* **Resultado Esperado:** Enlace con continuidad óptica y parámetros dentro de tolerancia.
+
+---
+
+## 6. Presupuesto Óptico (Cálculo Teórico)
+
+El presupuesto de potencia óptica permite estimar las pérdidas máximas toleradas en el canal de transmisión mediante la siguiente fórmula general:
+
+$$\text{Pérdida Total (dB)} = (\alpha_{\text{fibra}} \times L) + (N_c \times A_c) + (N_e \times A_e) + \text{Margen GPON}$$
+
+| Parámetro | Cantidad o valor | Unidad | Descripción |
+| :--- | :---: | :---: | :--- |
+| **Longitud del enlace ($L$)** | Por completar | $\text{km}$ | Distancia total física del tendido de fibra. |
+| **Atenuación por kilómetro ($\alpha_{\text{fibra}}$)** | Por completar | $\text{dB/km}$ | Pérdida estándar según la longitud de onda (ej. $1310\,\text{nm}$ o $1550\,\text{nm}$). |
+| **Pérdida por conectores ($A_c$)** | Por completar | $\text{dB}$ | Atenuación asociada a cada acoplador o conector físico. |
+| **Pérdida por empalmes ($A_e$)** | Por completar | $\text{dB}$ | Atenuación generada en cada punto de termofusión. |
+| **Pérdidas adicionales** | Por completar | $\text{dB}$ | Considera reservas por curvaturas o empalmes mecánicos de emergencia. |
+| **Margen GPON** | Por completar | $\text{dB}$ | Margen de seguridad ante degradación futura de la planta externa. |
+| **Pérdida total estimada** | **Por calcular** | **dB** | Resultado final teórico del balance de potencia. |
+
+---
+
+## 7. Mediciones y Verificación
+
+| Parámetro Evaluado | Valor Teórico / Estimado | Valor Real Medido | Estado del Enlace | Observaciones de Terreno |
+| :--- | :---: | :---: | :---: | :--- |
+| **Continuidad Óptica** | OK | OK | ✅ Aprobado | Luz láser visible pasa sin interrupciones. |
+| **Pérdida de Empalme** | $< 0.05\,\text{dB}$ | $0.02\,\text{dB}$ | ✅ Aprobado | Alineación de núcleos exitosa en fusionadora. |
+| **Atenuación Total del Canal**| $< 0.50\,\text{dB}$ | $0.35\,\text{dB}$ | ✅ Aprobado | Cumple con los márgenes de diseño de planta. |
+
+---
+
+## 8. Conclusiones
+
+* La correcta ejecución de los protocolos de limpieza y preparación mecánica evita pérdidas críticas por atenuación en las redes de fibra óptica.
+* El dominio del uso de la pinza peladora y la cortadora de precisión asegura que el ángulo de corte cumpla con los estándares de la industria de telecomunicaciones.
+* El cálculo riguroso del presupuesto óptico permite validar la viabilidad técnica de un enlace antes de su puesta en servicio definitiva.
+
+---
+
+## 9. Bibliografía y Referencias Técnicas
+
+* INACAP. (2026). *Apuntes de Cátedra y Manual de Laboratorio: Infraestructura de Redes (TCB304)*. Sede La Serena.
+* Normas TIA/EIA-568 y estándares internacionales para sistemas de cableado de fibra óptica.
