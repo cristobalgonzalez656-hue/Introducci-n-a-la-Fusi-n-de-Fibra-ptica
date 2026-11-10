@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120" role="img" aria-labelledby="title desc">
+<title id="title">Mapa mental de fibra óptica y fusión</title>
+<desc id="desc">Mapa mental con seis ramas: seguridad, preparación, termofusión, protección, presupuesto óptico, medición y documentación Git.</desc>
+<defs>
+ <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7fbff"/><stop offset="1" stop-color="#eaf3fb"/></linearGradient>
+ <linearGradient id="center" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#08294e"/><stop offset="1" stop-color="#1266a4"/></linearGradient>
+ <filter id="shadow2" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#0a3158" flood-opacity=".13"/></filter>
+</defs>
+<rect width="1600" height="1120" rx="28" fill="url(#bg2)"/>
+<text x="800" y="70" text-anchor="middle" font-family="Arial" font-size="42" font-weight="700" fill="#0b345d">MAPA MENTAL · PROYECTO DE FIBRA ÓPTICA</text>
+<text x="800" y="108" text-anchor="middle" font-family="Arial" font-size="21" fill="#47647d">Conceptos y evidencias que debe contener el repositorio TCB304</text>
+<!-- connecting lines behind nodes -->
+<g fill="none" stroke-width="8" stroke-linecap="round" opacity=".85">
+ <path d="M800 560 C650 420 500 305 345 270" stroke="#1f79b8"/>
+ <path d="M800 560 C800 380 800 300 800 255" stroke="#2d8b76"/>
+ <path d="M800 560 C970 420 1110 310 1260 270" stroke="#bb812d"/>
+ <path d="M800 560 C630 700 500 820 345 875" stroke="#8466b8"/>
+ <path d="M800 560 C800 735 800 825 800 885" stroke="#c26854"/>
+ <path d="M800 560 C970 700 1110 820 1260 875" stroke="#3979a7"/>
+</g>
+<!-- central node -->
+<g filter="url(#shadow2)">
+ <rect x="575" y="455" width="450" height="210" rx="34" fill="url(#center)"/>
+ <text x="800" y="530" text-anchor="middle" font-family="Arial" font-size="36" font-weight="700" fill="#fff">REPOSITORIO</text>
+ <text x="800" y="578" text-anchor="middle" font-family="Arial" font-size="36" font-weight="700" fill="#fff">FIBRA ÓPTICA</text>
+ <text x="800" y="622" text-anchor="middle" font-family="Arial" font-size="20" fill="#d4ebff">Manual · práctica · mediciones · Git</text>
+</g>
+<!-- branch 1 -->
+<g filter="url(#shadow2)">
+ <rect x="65" y="165" width="455" height="220" rx="24" fill="#fff" stroke="#8bc1e5" stroke-width="3"/>
+ <rect x="65" y="165" width="455" height="58" rx="24" fill="#1f79b8"/><rect x="65" y="205" width="455" height="18" fill="#1f79b8"/>
+ <text x="95" y="204" font-family="Arial" font-size="27" font-weight="700" fill="#fff">1 · SEGURIDAD</text>
+ <text x="100" y="270" font-family="Arial" font-size="22" fill="#17324b">• Lentes de seguridad (EPP)</text>
+ <text x="100" y="310" font-family="Arial" font-size="22" fill="#17324b">• Manejo cuidadoso del vidrio</text>
+ <text x="100" y="350" font-family="Arial" font-size="22" fill="#17324b">• Contenedor de residuos</text>
+</g>
+<!-- branch 2 -->
+<g filter="url(#shadow2)">
+ <rect x="575" y="150" width="450" height="230" rx="24" fill="#fff" stroke="#9bcebf" stroke-width="3"/>
+ <rect x="575" y="150" width="450" height="58" rx="24" fill="#2d8b76"/><rect x="575" y="190" width="450" height="18" fill="#2d8b76"/>
+ <text x="605" y="189" font-family="Arial" font-size="27" font-weight="700" fill="#fff">2 · PREPARACIÓN</text>
+ <text x="610" y="255" font-family="Arial" font-size="22" fill="#17324b">• Stripping: vidrio de 125 μm</text>
+ <text x="610" y="295" font-family="Arial" font-size="22" fill="#17324b">• Limpieza: alcohol isopropílico</text>
+ <text x="610" y="335" font-family="Arial" font-size="22" fill="#17324b">• Paño libre de pelusa</text>
+</g>
+<!-- branch 3 -->
+<g filter="url(#shadow2)">
+ <rect x="1080" y="165" width="455" height="220" rx="24" fill="#fff" stroke="#e5c58e" stroke-width="3"/>
+ <rect x="1080" y="165" width="455" height="58" rx="24" fill="#bb812d"/><rect x="1080" y="205" width="455" height="18" fill="#bb812d"/>
+ <text x="1110" y="204" font-family="Arial" font-size="27" font-weight="700" fill="#fff">3 · CORTE Y FUSIÓN</text>
+ <text x="1115" y="270" font-family="Arial" font-size="22" fill="#17324b">• Cleaving cercano a 90°</text>
+ <text x="1115" y="310" font-family="Arial" font-size="22" fill="#17324b">• Alineación núcleo / cladding</text>
+ <text x="1115" y="350" font-family="Arial" font-size="22" fill="#17324b">• Arco eléctrico en fusionadora</text>
+</g>
+<!-- branch 4 -->
+<g filter="url(#shadow2)">
+ <rect x="65" y="770" width="455" height="220" rx="24" fill="#fff" stroke="#c5b3e3" stroke-width="3"/>
+ <rect x="65" y="770" width="455" height="58" rx="24" fill="#8466b8"/><rect x="65" y="810" width="455" height="18" fill="#8466b8"/>
+ <text x="95" y="809" font-family="Arial" font-size="27" font-weight="700" fill="#fff">4 · PROTECCIÓN</text>
+ <text x="100" y="875" font-family="Arial" font-size="22" fill="#17324b">• Manguito termo-contraíble</text>
+ <text x="100" y="915" font-family="Arial" font-size="22" fill="#17324b">• Ciclo según fabricante</text>
+ <text x="100" y="955" font-family="Arial" font-size="22" fill="#17324b">• Registrar estado del empalme</text>
+</g>
+<!-- branch 5 -->
+<g filter="url(#shadow2)">
+ <rect x="575" y="785" width="450" height="220" rx="24" fill="#fff" stroke="#e1b1a6" stroke-width="3"/>
+ <rect x="575" y="785" width="450" height="58" rx="24" fill="#c26854"/><rect x="575" y="825" width="450" height="18" fill="#c26854"/>
+ <text x="605" y="824" font-family="Arial" font-size="27" font-weight="700" fill="#fff">5 · PRESUPUESTO Y MEDICIÓN</text>
+ <text x="610" y="890" font-family="Arial" font-size="22" fill="#17324b">• Atenuación por km</text>
+ <text x="610" y="930" font-family="Arial" font-size="22" fill="#17324b">• Conectores y empalmes</text>
+ <text x="610" y="970" font-family="Arial" font-size="22" fill="#17324b">• Continuidad y pérdidas (dB)</text>
+</g>
+<!-- branch 6 -->
+<g filter="url(#shadow2)">
+ <rect x="1080" y="770" width="455" height="220" rx="24" fill="#fff" stroke="#9fc1d8" stroke-width="3"/>
+ <rect x="1080" y="770" width="455" height="58" rx="24" fill="#3979a7"/><rect x="1080" y="810" width="455" height="18" fill="#3979a7"/>
+ <text x="1110" y="809" font-family="Arial" font-size="27" font-weight="700" fill="#fff">6 · REPOSITORIO GIT</text>
+ <text x="1115" y="875" font-family="Arial" font-size="22" fill="#17324b">• README.md y .gitignore</text>
+ <text x="1115" y="915" font-family="Arial" font-size="22" fill="#17324b">• assets/img y rutas relativas</text>
+ <text x="1115" y="955" font-family="Arial" font-size="22" fill="#17324b">• Commits descriptivos</text>
+</g>
+<text x="800" y="1065" text-anchor="middle" font-family="Arial" font-size="18" fill="#58748c">Cada rama debe respaldarse con documentación y evidencias reales de la práctica.</text>
+</svg>

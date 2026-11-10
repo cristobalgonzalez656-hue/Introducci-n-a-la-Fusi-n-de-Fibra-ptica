@@ -1,0 +1,24 @@
+REPOSITORIO DE FIBRA OPTICA - INACAP TCB304
+
+CONTENIDO
+- README.md: manual técnico principal.
+- .gitignore: exclusiones habituales sin excluir imágenes ni documentación.
+- assets/img/: infografía, esquema de proceso y mapa mental.
+- assets/img/evidencias/: agrega aquí tus propias fotografías.
+- docs/: diagramas Mermaid editables, registro fotográfico y plantilla CSV de mediciones.
+
+SUBIR A GITHUB SIN USAR LA TERMINAL
+1. Entra a https://github.com/ e inicia sesión.
+2. Crea un repositorio nuevo. Puedes llamarlo repositorio-fibra-optica.
+3. En el repositorio, usa Add file > Upload files.
+4. Arrastra el CONTENIDO de esta carpeta (incluidos README.md, .gitignore, assets y docs).
+5. Escribe un mensaje, por ejemplo: Initial commit: estructura del repositorio.
+6. Confirma con Commit changes.
+
+IMPORTANTE
+- Completa los campos [Completar] con tus datos reales.
+- Añade fotografías propias en assets/img/evidencias/.
+- No inventes valores de atenuación, pérdida, margen GPON ni mediciones.
+- Revisa el README y la pauta antes de entregar.
+
+Este paquete prepara los archivos del repositorio; no crea ni publica automáticamente un repositorio en tu cuenta de GitHub.
