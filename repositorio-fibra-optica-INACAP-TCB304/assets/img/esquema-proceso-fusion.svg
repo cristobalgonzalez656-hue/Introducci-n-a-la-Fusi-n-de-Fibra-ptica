@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1020" viewBox="0 0 1600 1020" role="img" aria-labelledby="title desc">
+<title id="title">Esquema del proceso de fusión de fibra óptica</title>
+<desc id="desc">Flujo de seis etapas desde seguridad y preparación hasta medición y verificación.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7fbff"/><stop offset="1" stop-color="#e8f2fb"/></linearGradient>
+  <linearGradient id="navy" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#08294e"/><stop offset="1" stop-color="#0b477b"/></linearGradient>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#1672b8"/></marker>
+  <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#0a3158" flood-opacity=".12"/></filter>
+</defs>
+<rect width="1600" height="1020" rx="28" fill="url(#bg)"/>
+<rect x="34" y="30" width="1532" height="115" rx="22" fill="url(#navy)"/>
+<text x="80" y="82" font-family="Arial,sans-serif" font-size="40" font-weight="700" fill="#fff">ESQUEMA TÉCNICO · FUSIÓN DE FIBRA ÓPTICA</text>
+<text x="82" y="119" font-family="Arial,sans-serif" font-size="21" fill="#cfe7ff">Secuencia general de trabajo documentada en la pauta TCB304</text>
+
+<!-- top row cards -->
+<g filter="url(#shadow)">
+ <rect x="55" y="205" width="445" height="270" rx="22" fill="#fff" stroke="#b7d2e8" stroke-width="3"/>
+ <rect x="55" y="205" width="445" height="72" rx="22" fill="#0b3a68"/>
+ <rect x="55" y="254" width="445" height="23" fill="#0b3a68"/>
+ <circle cx="100" cy="241" r="25" fill="#fff"/><text x="100" y="250" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#0b3a68">1</text>
+ <text x="145" y="251" font-family="Arial" font-size="27" font-weight="700" fill="#fff">Seguridad y preparación</text>
+ <text x="88" y="328" font-family="Arial" font-size="22" fill="#17324b">• Lentes de seguridad (EPP)</text>
+ <text x="88" y="369" font-family="Arial" font-size="22" fill="#17324b">• Ordenar materiales y herramientas</text>
+ <text x="88" y="410" font-family="Arial" font-size="22" fill="#17324b">• Contenedor para residuos de fibra</text>
+ <text x="88" y="449" font-family="Arial" font-size="17" fill="#6b7f91">Registrar evidencia y condiciones de trabajo.</text>
+
+ <rect x="578" y="205" width="445" height="270" rx="22" fill="#fff" stroke="#b7d2e8" stroke-width="3"/>
+ <rect x="578" y="205" width="445" height="72" rx="22" fill="#0b3a68"/><rect x="578" y="254" width="445" height="23" fill="#0b3a68"/>
+ <circle cx="623" cy="241" r="25" fill="#fff"/><text x="623" y="250" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#0b3a68">2</text>
+ <text x="668" y="251" font-family="Arial" font-size="27" font-weight="700" fill="#fff">Stripping · Pelado</text>
+ <text x="611" y="328" font-family="Arial" font-size="22" fill="#17324b">• Retirar capas protectoras</text>
+ <text x="611" y="369" font-family="Arial" font-size="22" fill="#17324b">• Exponer vidrio de 125 μm</text>
+ <text x="611" y="410" font-family="Arial" font-size="22" fill="#17324b">• Evitar mellar o dañar el hilo</text>
+ <text x="611" y="449" font-family="Arial" font-size="17" fill="#6b7f91">Registrar herramienta y observaciones.</text>
+
+ <rect x="1101" y="205" width="445" height="270" rx="22" fill="#fff" stroke="#b7d2e8" stroke-width="3"/>
+ <rect x="1101" y="205" width="445" height="72" rx="22" fill="#0b3a68"/><rect x="1101" y="254" width="445" height="23" fill="#0b3a68"/>
+ <circle cx="1146" cy="241" r="25" fill="#fff"/><text x="1146" y="250" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#0b3a68">3</text>
+ <text x="1191" y="251" font-family="Arial" font-size="27" font-weight="700" fill="#fff">Limpieza y cleaving</text>
+ <text x="1134" y="328" font-family="Arial" font-size="22" fill="#17324b">• Alcohol isopropílico de alta pureza</text>
+ <text x="1134" y="369" font-family="Arial" font-size="22" fill="#17324b">• Paño libre de pelusa</text>
+ <text x="1134" y="410" font-family="Arial" font-size="22" fill="#17324b">• Corte perpendicular cercano a 90°</text>
+ <text x="1134" y="449" font-family="Arial" font-size="17" fill="#6b7f91">Registrar calidad del extremo cortado.</text>
+</g>
+
+<!-- arrows top -->
+<path d="M505 340 H565" stroke="#1672b8" stroke-width="8" fill="none" marker-end="url(#arrow)"/>
+<path d="M1028 340 H1088" stroke="#1672b8" stroke-width="8" fill="none" marker-end="url(#arrow)"/>
+
+<!-- bottom row cards -->
+<g filter="url(#shadow)">
+ <rect x="55" y="570" width="445" height="270" rx="22" fill="#fff" stroke="#b7d2e8" stroke-width="3"/>
+ <rect x="55" y="570" width="445" height="72" rx="22" fill="#0b3a68"/><rect x="55" y="619" width="445" height="23" fill="#0b3a68"/>
+ <circle cx="100" cy="606" r="25" fill="#fff"/><text x="100" y="615" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#0b3a68">4</text>
+ <text x="145" y="616" font-family="Arial" font-size="27" font-weight="700" fill="#fff">Termofusión</text>
+ <text x="88" y="693" font-family="Arial" font-size="22" fill="#17324b">• Configurar según fabricante</text>
+ <text x="88" y="734" font-family="Arial" font-size="22" fill="#17324b">• Alinear núcleo / cladding</text>
+ <text x="88" y="775" font-family="Arial" font-size="22" fill="#17324b">• Ejecutar arco eléctrico</text>
+ <text x="88" y="814" font-family="Arial" font-size="17" fill="#6b7f91">Anotar equipo, programa y datos reales.</text>
+
+ <rect x="578" y="570" width="445" height="270" rx="22" fill="#fff" stroke="#b7d2e8" stroke-width="3"/>
+ <rect x="578" y="570" width="445" height="72" rx="22" fill="#0b3a68"/><rect x="578" y="619" width="445" height="23" fill="#0b3a68"/>
+ <circle cx="623" cy="606" r="25" fill="#fff"/><text x="623" y="615" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#0b3a68">5</text>
+ <text x="668" y="616" font-family="Arial" font-size="27" font-weight="700" fill="#fff">Protección del empalme</text>
+ <text x="611" y="693" font-family="Arial" font-size="22" fill="#17324b">• Posicionar manguito termo-contraíble</text>
+ <text x="611" y="734" font-family="Arial" font-size="22" fill="#17324b">• Aplicar ciclo indicado por el equipo</text>
+ <text x="611" y="775" font-family="Arial" font-size="22" fill="#17324b">• Revisar protección y presentación</text>
+ <text x="611" y="814" font-family="Arial" font-size="17" fill="#6b7f91">No inventar tiempos ni temperaturas.</text>
+
+ <rect x="1101" y="570" width="445" height="270" rx="22" fill="#fff" stroke="#b7d2e8" stroke-width="3"/>
+ <rect x="1101" y="570" width="445" height="72" rx="22" fill="#0b3a68"/><rect x="1101" y="619" width="445" height="23" fill="#0b3a68"/>
+ <circle cx="1146" cy="606" r="25" fill="#fff"/><text x="1146" y="615" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#0b3a68">6</text>
+ <text x="1191" y="616" font-family="Arial" font-size="27" font-weight="700" fill="#fff">Medición y verificación</text>
+ <text x="1134" y="693" font-family="Arial" font-size="22" fill="#17324b">• Comprobar continuidad</text>
+ <text x="1134" y="734" font-family="Arial" font-size="22" fill="#17324b">• Registrar pérdidas y equipo usado</text>
+ <text x="1134" y="775" font-family="Arial" font-size="22" fill="#17324b">• Analizar y documentar resultados</text>
+ <text x="1134" y="814" font-family="Arial" font-size="17" fill="#6b7f91">Separar estimación de medición real.</text>
+</g>
+<path d="M1323 485 V535 H278 V560" stroke="#1672b8" stroke-width="6" fill="none" marker-end="url(#arrow)" opacity=".85"/>
+<path d="M505 705 H565" stroke="#1672b8" stroke-width="8" fill="none" marker-end="url(#arrow)"/>
+<path d="M1028 705 H1088" stroke="#1672b8" stroke-width="8" fill="none" marker-end="url(#arrow)"/>
+
+<rect x="55" y="880" width="1491" height="92" rx="18" fill="#d8eafa" stroke="#9dc6e8" stroke-width="2"/>
+<text x="85" y="918" font-family="Arial" font-size="22" font-weight="700" fill="#0b3a68">REGLA DE DOCUMENTACIÓN:</text>
+<text x="85" y="950" font-family="Arial" font-size="20" fill="#17324b">Registra lo que realmente realizaste, usa fotografías propias y consulta los manuales del fabricante y las indicaciones del docente.</text>
+</svg>

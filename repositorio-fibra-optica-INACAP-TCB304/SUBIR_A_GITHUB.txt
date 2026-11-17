@@ -1,0 +1,30 @@
+REPOSITORIO DE FIBRA OPTICA - INACAP TCB304
+
+ESTE PAQUETE INCLUYE
+- README.md: manual técnico principal para mostrar en GitHub.
+- .gitignore: exclusiones habituales de archivos temporales.
+- assets/img/: portada, infografía, esquema, mapa mental y versiones SVG.
+- assets/img/evidencias/: las dos fotografías reales proporcionadas.
+- docs/: diagramas Mermaid editables, plantilla CSV de mediciones y registro fotográfico.
+- referencia/: copia de la pauta de evaluación original.
+
+SUBIR TODO A GITHUB DESDE EL NAVEGADOR
+1. Descomprime este ZIP en tu computador.
+2. Entra a GitHub y abre tu repositorio.
+3. Selecciona Add file > Upload files.
+4. Arrastra el CONTENIDO de esta carpeta descomprimida, no el archivo ZIP.
+5. Asegúrate de incluir README.md, .gitignore, assets, docs y referencia.
+6. Presiona Commit changes.
+
+ACTUALIZAR DESDE GIT EN LA TERMINAL
+    git add README.md .gitignore assets docs referencia SUBIR_A_GITHUB.txt
+    git commit -m "Docs: integra manual, diagramas y evidencias de fibra optica"
+    git push
+
+NOTAS IMPORTANTES
+- El README incorpora dos fotografías auténticas de la práctica.
+- La pauta indica vidrio de 125 micras y corte cercano a 90 grados.
+- No se inventaron valores de pérdida, continuidad, longitud, conectores ni margen GPON.
+- Completa la plantilla CSV solo con valores obtenidos realmente en el taller o entregados por el docente.
+- La evidencia fotográfica no demuestra por sí sola que la fusión o el enlace hayan aprobado las mediciones.
+- Este paquete no crea ni publica automáticamente el repositorio en tu cuenta.

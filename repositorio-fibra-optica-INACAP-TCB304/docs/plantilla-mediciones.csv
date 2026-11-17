@@ -1,0 +1,6 @@
+fecha,etapa,equipo_marca_modelo,parametro,valor,unidad,metodo_o_fuente,observaciones
+[DD-MM-AAAA],Stripping,[Completar],diametro_vidrio,125,um,Pauta TCB304,Referencia indicada en la pauta
+[DD-MM-AAAA],Cleaving,[Completar],angulo_objetivo,cercano a 90,grados,Pauta TCB304,No registrar como medición si no fue medido
+[DD-MM-AAAA],Termofusion,[Completar],estimacion_perdida,[Completar],dB,Fusionadora,Registrar solo si el equipo lo informa
+[DD-MM-AAAA],Verificacion,[Completar],continuidad,[Completar],estado,Prueba realizada,Describir criterio
+[DD-MM-AAAA],Verificacion,[Completar],perdida_medida,[Completar],dB,Instrumento y método,No confundir con estimación de fusionadora
