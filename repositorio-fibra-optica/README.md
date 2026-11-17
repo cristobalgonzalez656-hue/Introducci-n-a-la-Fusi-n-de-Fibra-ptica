@@ -13,13 +13,13 @@
 
 | Dato | Información |
 |---|---|
-| Estudiante | **[Nombre y apellidos]** |
+| Estudiante | **[Cristobal gonzalez]** |
 | Carrera | Ingeniería en Telecomunicaciones / Conectividad y Redes |
 | Asignatura | Infraestructura de Redes (TCB304) |
 | Sede | La Serena |
-| Docente | [Nombre del docente] |
-| Fecha de práctica | [DD-MM-AAAA] |
-| Enlace / muestra trabajada | [Identificación de la fibra o enlace] |
+| Docente | [Daniel Ruz] |
+| Fecha de práctica | [17-11-2026] |
+| Enlace / muestra trabajada | [Clases] |
 
 ## 1. Introducción
 
@@ -57,15 +57,15 @@ Registra únicamente los elementos que efectivamente utilizaste en el taller.
 
 | Material / herramienta | Uso dentro del procedimiento | Marca / modelo / observación |
 |---|---|---|
-| Lentes de seguridad | Protección ocular durante la práctica | [Completar] |
-| Pinza peladora (stripper) | Retirar las capas protectoras de la fibra | [Completar] |
-| Alcohol isopropílico de alta pureza | Limpieza del extremo de la fibra | [Completar] |
-| Paños libres de pelusa | Limpieza sin dejar residuos | [Completar] |
-| Cortadora de precisión (cleaver) | Preparar una cara de corte perpendicular | [Completar] |
-| Fusionadora | Alinear y fusionar los extremos de fibra | [Completar] |
-| Manguito termo-contraíble | Proteger mecánicamente el empalme | [Completar] |
-| Contenedor para residuos de fibra | Depositar fragmentos de vidrio de forma segura | [Completar] |
-| Instrumental de medición | Comprobar continuidad y/o pérdida óptica | [Completar] |
+| Lentes de seguridad | Protección ocular durante la práctica |  |
+| Pinza peladora (stripper) | Retirar las capas protectoras de la fibra |  |
+| Alcohol isopropílico de alta pureza | Limpieza del extremo de la fibra |  |
+| Paños libres de pelusa | Limpieza sin dejar residuos |  |
+| Cortadora de precisión (cleaver) | Preparar una cara de corte perpendicular |  |
+| Fusionadora | Alinear y fusionar los extremos de fibra |  |
+| Manguito termo-contraíble | Proteger mecánicamente el empalme |  |
+| Contenedor para residuos de fibra | Depositar fragmentos de vidrio de forma segura |  |
+| Instrumental de medición | Comprobar continuidad y/o pérdida óptica |  |
 
 ## 5. Seguridad y manejo de materiales
 
@@ -117,10 +117,10 @@ También se incluyen los archivos SVG equivalentes en `assets/img/` para conserv
 | Dato | Registro |
 |---|---|
 | Herramienta utilizada | [Marca / modelo] |
-| Tipo de fibra, si se conoce | [Completar] |
+| Tipo de fibra, si se conoce |  |
 | Diámetro de vidrio indicado en la pauta | **125 μm** |
-| Estado observado del hilo | [Completar] |
-| Observaciones | [Completar] |
+| Estado observado del hilo |  |
+| Observaciones |  |
 
 **Resultado esperado:** fibra preparada y sin mellas visibles en el vidrio. La pauta solicita documentar la exposición del vidrio de 125 micras.
 
@@ -137,10 +137,10 @@ También se incluyen los archivos SVG equivalentes en `assets/img/` para conserv
 
 | Dato | Registro |
 |---|---|
-| Producto utilizado | [Completar] |
-| Pureza indicada en el envase o ficha | [Completar] |
-| Paño utilizado | [Completar] |
-| Observación del extremo después de limpiar | [Completar] |
+| Producto utilizado | Elementos para Fusionar |
+| Pureza indicada en el envase o ficha | Pura |
+| Paño utilizado | Micro Fibra |
+| Observación del extremo después de limpiar |  |
 
 **Resultado esperado:** extremo limpio, sin residuos visibles ni fibras de paño.
 
@@ -157,11 +157,11 @@ La pauta solicita un ángulo cercano a **90°**.
 
 | Dato | Registro |
 |---|---|
-| Cortadora utilizada (marca / modelo) | [Completar] |
+| Cortadora utilizada (marca / modelo) |  |
 | Ángulo objetivo indicado por la pauta | **Cercano a 90°** |
-| Valor o evaluación obtenida, si el equipo lo informa | [Completar] |
-| Estado del corte | [Completar] |
-| Observaciones | [Completar] |
+| Valor o evaluación obtenida, si el equipo lo informa |  |
+| Estado del corte |  |
+| Observaciones |  |
 
 **Resultado esperado:** extremo de corte limpio y perpendicular, apto para el proceso de fusión según el criterio del equipo y del docente.
 
@@ -178,13 +178,13 @@ La documentación debe evidenciar la configuración de la fusionadora, la alinea
 
 | Dato | Registro real de la práctica |
 |---|---|
-| Marca y modelo de fusionadora | [Completar] |
-| Tipo de fibra seleccionado | [Completar] |
-| Programa / modo utilizado | [Completar] |
-| Método de alineación indicado por el equipo | [Completar] |
-| Estimación de pérdida mostrada por la fusionadora (si aparece) | [Completar] dB |
-| Mensaje o resultado del equipo | [Completar] |
-| Observaciones del docente | [Completar] |
+| Marca y modelo de fusionadora |  |
+| Tipo de fibra seleccionado |  |
+| Programa / modo utilizado |  |
+| Método de alineación indicado por el equipo | [] |
+| Estimación de pérdida mostrada por la fusionadora (si aparece) | [] dB |
+| Mensaje o resultado del equipo | [] |
+| Observaciones del docente | [] |
 
 **Resultado esperado:** empalme realizado por fusión, con registro del resultado que informa el equipo.
 
@@ -213,17 +213,6 @@ La documentación debe evidenciar la configuración de la fusionadora, la alinea
 
 **Objetivo:** registrar la continuidad y las pérdidas del enlace y analizar si el resultado cumple el criterio definido para la práctica.
 
-| Dato | Registro |
-|---|---|
-| Instrumento utilizado | [Completar] |
-| Marca / modelo | [Completar] |
-| Método o prueba realizada | [Completar] |
-| Continuidad | [Conforme / No conforme / No realizada] |
-| Pérdida estimada por la fusionadora | [Completar] dB / No disponible |
-| Pérdida medida por instrumental | [Completar] dB / No realizada |
-| Criterio de aceptación utilizado | [Completar] |
-| Resultado final | [Completar] |
-| Observaciones | [Completar] |
 
 **Importante:** una estimación que muestra la fusionadora para un empalme no es necesariamente lo mismo que una medición de pérdida de extremo a extremo del enlace. Identifica siempre qué equipo entregó cada valor y qué prueba se realizó.
 
@@ -233,18 +222,6 @@ La documentación debe evidenciar la configuración de la fusionadora, la alinea
 
 El presupuesto óptico reúne las pérdidas previstas en el enlace. La pauta solicita considerar atenuación por kilómetro, conectores, empalmes y margen GPON. **La guía de evaluación no entrega valores numéricos para estos parámetros**, por lo que deben obtenerse de los datos de la práctica, fichas técnicas, manuales o instrucciones entregadas por el docente.
 
-### 8.1 Tabla de parámetros
-
-| Parámetro | Cantidad o valor | Unidad / fuente |
-|---|---:|---|
-| Longitud del enlace, `L` | [Completar] | km |
-| Atenuación de la fibra, `α` | [Completar] | dB/km · [fuente] |
-| Número de conectores, `Nc` | [Completar] | unidades |
-| Pérdida por conector, `Ac` | [Completar] | dB/conector · [fuente] |
-| Número de empalmes, `Ne` | [Completar] | unidades |
-| Pérdida por empalme, `Ae` | [Completar] | dB/empalme · [fuente] |
-| Otras pérdidas, `Aotros` | [Completar] | dB · [describir] |
-| Margen / reserva de diseño GPON, `M` | [Completar] | dB · [criterio o fuente] |
 
 ### 8.2 Fórmulas
 
