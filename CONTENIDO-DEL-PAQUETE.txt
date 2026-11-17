@@ -1,0 +1,17 @@
+CONTENIDO DEL PAQUETE
+
+README.md
+.gitignore
+SUBIR_A_GITHUB.txt
+assets/img/portada-fibra-optica.png
+assets/img/infografia-fusion-fibra-optica.png
+assets/img/esquema-proceso-fusion.png
+assets/img/esquema-proceso-fusion.svg
+assets/img/mapa-mental-fibra-optica.png
+assets/img/mapa-mental-fibra-optica.svg
+assets/img/evidencias/01-equipo-y-herramientas.jpg
+assets/img/evidencias/02-fibra-posicionada-en-fusionadora.jpg
+docs/diagramas-editables.md
+docs/plantilla-mediciones.csv
+docs/registro-fotografico.md
+referencia/Pauta-de-Evaluacion-Fusion-de-Fibra-Optica-y-Git.pdf
